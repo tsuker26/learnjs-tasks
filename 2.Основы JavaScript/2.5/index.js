@@ -1,4 +1,4 @@
-let name = "Ilya";
+let name = 'Ilya';
 
 alert( `hello ${1}` ); // hello 1
 
