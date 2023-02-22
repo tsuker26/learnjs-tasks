@@ -1,5 +1,6 @@
-let i = 0;
-while (i != 10) {
-    i += 0.2;
+const extractCurrencyValue = (str) =>{
+    return +str.slice(1)
 }
-///Из за потери точности при сложении  дробей
+
+
+console.log(extractCurrencyValue('$120'));
