@@ -1,6 +1,4 @@
-const extractCurrencyValue = (str) =>{
-    return +str.slice(1)
-}
+const extractCurrencyValue = (str) => +str.slice(1)
 
 
 console.log(extractCurrencyValue('$120'));
