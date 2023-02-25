@@ -8,7 +8,6 @@ let meetup = {
     place: room
 };
 
-// цикличные ссылки
 room.occupiedBy = meetup;
 meetup.self = meetup;
 
