@@ -52,3 +52,21 @@ td {
     background-color: #0c3;
     color: #fff;
 }
+
+.textArea {
+    outline: none;
+    resize: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    overflow: auto;
+}
+.td-edit {
+    padding: 0;
+    position: relative;
+
+}
+.edit-controls {
+    position: absolute;
+}
